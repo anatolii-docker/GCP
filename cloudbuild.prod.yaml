@@ -30,7 +30,7 @@ images: # Display the image in the build results - Build Artifacts
 substitutions:
     _SERVICE_IMAGE    : europe-north1-docker.pkg.dev/${PROJECT_ID}/${_DOCKER_REGISTRY}/${_DOCKER_IMAGENAME}:${SHORT_SHA}
     _SERVICE_REGION   : finland
-    _SERVICE_PROJECT  : PROD
+    _SERVICE_PROJECT  : my-prod
     _SERVICE_NAME     : docker-push-to-main
     _DOCKER_REGISTRY  : anatolii-docker
     _DOCKER_IMAGENAME : myapp-prod
