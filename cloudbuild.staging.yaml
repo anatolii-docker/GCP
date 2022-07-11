@@ -31,6 +31,6 @@ substitutions:
     _SERVICE_IMAGE    : finland-docker.pkg.dev/${PROJECT_ID}/${_DOCKER_REGISTRY}/${_DOCKER_IMAGENAME}:${SHORT_SHA}
     _SERVICE_REGION   : finland
     _SERVICE_PROJECT  : STAGING
-    _SERVICE_NAME     : my-docker-app-staging
+    _SERVICE_NAME     : docker-push-to-staging
     _DOCKER_REGISTRY  : anatolii-docker-repo
     _DOCKER_IMAGENAME : myapp-staging
