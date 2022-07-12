@@ -32,5 +32,5 @@ substitutions:
     _SERVICE_REGION   : finland
     _SERVICE_PROJECT  : STAGING
     _SERVICE_NAME     : docker-push-to-staging
-    _DOCKER_REGISTRY  : anatolii-docker-repo
+    _DOCKER_REGISTRY  : anatolii-docker
     _DOCKER_IMAGENAME : myapp-staging
